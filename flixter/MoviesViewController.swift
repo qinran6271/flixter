@@ -66,20 +66,34 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let posterUrl = URL(string: baseUrl+posterPath )
         
         cell.posterView.af.setImage(withURL: posterUrl!)
-        print("h")
+       
         
         return cell
     }
     
 
-    /*
+    
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         // Get the new view controller using segue.destination.
         // Pass the selected object to the new view controller.
+        
+         print("loading up the details screen")
+        
+        //Find the selected movie
+        let cell =  sender as! UITableViewCell
+        let indexPath = tableWiew.indexPath(for: cell)!
+        let movie = movies[indexPath.row]
+        
+        //Pass the selected movie to the details view controller
+        let detailsViewController = segue.destination as! MovieDetailsViewController
+        detailsViewController.movie = movie
+        
+        tableWiew.deselectRow(at: indexPath, animated: true)
+       
     }
-    */
+    
 
 }
