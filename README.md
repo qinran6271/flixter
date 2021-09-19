@@ -41,10 +41,11 @@ Describe any challenges encountered while building the app.
 - [ ] (2pt) User can view the app on various device sizes and orientations.
 - [ ] (1pt) Run your app on a real device.
 
+
+
 ### App Walkthrough GIF
 
-<img src="https://i.imgur.com/neQYMkK.gif"
- width=250><br>
+![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/60624760/133008846-573be3dd-b57e-49f2-bf72-59d45710a335.gif)
 
 
 
