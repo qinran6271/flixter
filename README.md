@@ -45,7 +45,8 @@ Describe any challenges encountered while building the app.
 
 ### App Walkthrough GIF
 
-![ezgif com-gif-maker (5)](https://user-images.githubusercontent.com/60624760/133008846-573be3dd-b57e-49f2-bf72-59d45710a335.gif)
+
+![Kapture 2021-09-19 at 19 24 35](https://user-images.githubusercontent.com/60624760/133946438-3193d1ff-4676-4ceb-9e16-11bed3d138b8.gif)
 
 
 
